@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.contentAll {
+    height: 100vh;
+    background-color: rgba(26, 27, 37, 1);
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 3px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border: 2px solid rgba(76, 66, 255, 1);
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.navbarSur {
+    background-color: rgba(26, 27, 37, 1);
+}
+
+nav div a {
+    text-decoration: none;
+}
+
+nav div a span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+nav div a:hover {
+    transform: scale(1.05);
+}
+
+.nombre {
+    margin-right: 20px;
+}
+
+.linkedIn {
+    margin-right: 20px;
+}
+
+.contentSuru {
+    display: flex;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.containerSur {
+    background-color: rgba(26, 27, 37, 1);
+    border: solid 2px rgba(76, 66, 255, 1);
+    border-radius: 9px;
+    display: flex;
+    padding: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100%;
+}
+
+.imgLogue {
+    border-radius: 50%;
+}
+
+.contentSuru {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(26, 27, 37, 1);
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+.infoSuru {
+    align-items: center;
+}
+
+.hSurui {
+    color: rgba(76, 66, 255, 1);
+    margin-bottom: 10px;
+}
+
+.desc {
+    color: white;
+    font-size: 20px;
+}
+
+.csharp {
+    color: rgba(217, 32, 244, 1);
+    text-decoration: none;
+}
+
+.node {
+    color: rgba(50, 157, 38, 1);
+    text-decoration: none;
+}
+
+.python {
+    color: rgba(249, 243, 96, 1);
+    text-decoration: none;
+}
+
+.torao {
+    border-radius: 50%;
+    width: 26rem;
+    border: solid 2px rgba(76, 66, 255, 1);
+    margin-left: 100px;
+}
+
+.Proyectos {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(26, 27, 37, 1);
+}
+
+.nameProyectos {
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.Tarjetas {
+    padding: 30px 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(26, 27, 37, 1);
+}
+
+
+#Elaina {
+    border: solid 3px white;
+    margin-right: 70px;
+}
+
+#Elaina > div {
+    background-color: rgba(26, 27, 37, 1);
+    color: white;
+}
+
+
+#DiscordThings {
+    border: solid 3px #0ccbf3;
+    margin-right: 70px;
+}
+
+#DiscordThings > div {
+    background-color: rgba(26, 27, 37, 1);
+    color: #0ccbf3;
+    padding-bottom: 25px;
+    padding-top: 29px;
+}
+
+#Minelex {
+    border: solid 3px #dc3444;
+}
+
+#Minelex > div {
+    background-color: rgba(26, 27, 37, 1);
+    color: #dc3444;
+    padding-bottom: 25px;
+    padding-top: 29px;
+}
+
+#Minelex > img {
+    background-color: rgba(26, 27, 37, 1);
+    border-bottom: solid 3px #dc3444;
+}
+
+footer {
+    background-color: rgba(26, 27, 37, 1);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer div ul {
+    padding: 0;
+}
+
+footer div ul a {
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+
+.Mensaje {
+    margin-top: 50px;
+    color: rgb(168, 168, 168);
+    margin-right: 450px;
+}
+
+.Redes {
+    margin-top: 70px;
+    color: rgb(168, 168, 168);
+}
+
+.Enlaces {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 640px){
+    .torao {
+        width: 15rem;
+        margin-left: 80px;
+    }
+
+    .Mensaje {
+        margin-right: 150px;
+    }
+
+
+    .Tarjetas div p {
+        font-size: 10px;
+    }
+
+    .Tarjetas div a button {
+        font-size: 10px;
+    }
+
+    .Redes {
+        margin-top: 120px;
+    }
+
+    #Elaina {
+        margin-right: 50px;
+    }
+
+    #DiscordThings {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .desc {
+        font-size: 10px;
+    }
+    .hSurui {
+        font-size: 20px;
+    }
+
+    .torao {
+        width: 10rem;
+    }
+
+    nav div a span {
+        font-size: 1rem;
+    }
+
+    footer div div ul a {
+        font-size: 10px;
+    }
+    
+    .Mensaje {
+        font-size: 10px;
+    }
+
+    .msgRedes {
+        font-size: 15px;
+    }
+
+    .Tarjetas div div h5 {
+        font-size: 12px;
+    }
+
+    .Tarjetas div div p {
+        font-size: 7px;
+    }
+
+    .Tarjetas div a button {
+        font-size: 7px;
+    }
+
+    #Elaina {
+        margin-right: 20px;
+    }
+
+    #DiscordThings {
+        margin-right: 20px;
+    }
+
+    .Redes {
+        margin-top: 20px;
+    }
+
+    .Mensaje {
+        margin-top: 0px;
+    }
+}
