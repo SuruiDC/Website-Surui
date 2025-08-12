@@ -354,7 +354,27 @@ footer div ul a {
         margin-right: 10px;
     }
 
+    .Tarjetas div div h5 {
+        font-size: 8px;
+    }
+
+    .Tarjetas div div p {
+        font-size: 6px;
+    }
+
     .Tarjetas div a button {
         font-size: 5px;
+    }
+
+    .Mensaje {
+        font-size: 8px;
+    }
+
+    .msgRedes {
+        font-size: 10px;
+    }
+
+    footer div div ul a {
+        font-size: 7px;
     }
 }
