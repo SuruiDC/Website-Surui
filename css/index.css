@@ -263,6 +263,12 @@ footer div ul a {
     #DiscordThings {
         margin-right: 50px;
     }
+
+    .containerSur {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -319,5 +325,36 @@ footer div ul a {
 
     .Mensaje {
         margin-top: 0px;
+    }
+
+    .containerSur {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    
+    .containerSur {
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .torao {
+        margin-left: 10px;
+    }
+
+    #Elaina {
+        margin-right: 10px;
+    }
+
+    #DiscordThings {
+        margin-right: 10px;
+    }
+
+    .Tarjetas div a button {
+        font-size: 5px;
     }
 }
