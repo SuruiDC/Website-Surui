@@ -236,7 +236,7 @@ footer div ul a {
 @media screen and (max-width: 640px){
     .torao {
         width: 15rem;
-        margin-left: 80px;
+        margin-left: 60px;
     }
 
     .Mensaje {
@@ -269,6 +269,13 @@ footer div ul a {
         margin-right: 20px;
     }
 
+    .nameProyectos {
+        font-size: 30px;
+    }
+
+    .desc {
+        font-size: 17.5px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -296,7 +303,7 @@ footer div ul a {
     }
 
     .msgRedes {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .Tarjetas div div h5 {
@@ -332,13 +339,21 @@ footer div ul a {
         margin-right: 20px;
     }
 
+    .nameProyectos {
+        font-size: 22px;
+    }
+
+    .torao {
+        margin-left: 14px;
+    }
+
 }
 
 @media screen and (max-width: 360px) {
     
     .containerSur {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 13px;
+        margin-right: 13px;
 
     }
 
